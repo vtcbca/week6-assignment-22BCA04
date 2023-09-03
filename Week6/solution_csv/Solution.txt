@@ -1,4 +1,5 @@
-Peform Following task using PYTHON Script. If any problem communicate with other student using discussion board of "Week 6 Assignment".
+Peform Following task using PYTHON Script. 
+If any problem communicate with other student using discussion board of "Week 6 Assignment".
 
 Question-1. Create a result table which contain student id, student name and 5 subject marks. 
 Question2. Enter 10 studnet details with its marks.
@@ -29,7 +30,7 @@ record=[
         [8,'Kailash',20,25,15,35,45],
         [9,'Gaurav',56,89,65,75,69],
         [10,'Nilesh',45,40,56,41,43]
-          ]
+       ]
 cur.executemany("Insert Into result values(?,?,?,?,?,?,?)",record)
 print("Record inserted successfull")
 con.commit()
